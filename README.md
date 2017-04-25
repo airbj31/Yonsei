@@ -14,6 +14,8 @@
 
 [chmod]
 
+[chown]
+
 ## User/Group management
 
 - You need a admin privilege to manage user/groups
