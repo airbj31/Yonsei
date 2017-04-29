@@ -51,113 +51,111 @@ Mandatory arguments to long options are mandatory for short options too.
  --file-type
   + likewise, except do not append ‘*’
 
-       --format=WORD
-              across  -x,  commas -m, horizontal -x, long -l, single-column -1, verbose -l,
-              vertical -C
+ --format=WORD
+  + across  -x,  commas -m, horizontal -x, long -l, single-column -1, verbose -l, vertical -C
 
-       --full-time
-              like -l --time-style=full-iso
+ --full-time
+  + like -l --time-style=full-iso
 
-       -g     like -l, but do not list owner
+ -g     
+  + like -l, but do not list owner
 
-       -G, --no-group
-           like -l, but do not list group
+ -G, --no-group
+  + like -l, but do not list group
 
-       -h, --human-readable
-              with -l, print sizes in human readable format (e.g., 1K 234M 2G)
+ -h, --human-readable
+  + with -l, print sizes in human readable format (e.g., 1K 234M 2G)
 
-       --si   likewise, but use powers of 1000 not 1024
+ --si   
+  + likewise, but use powers of 1000 not 1024
 
-       -H, --dereference-command-line
-              follow symbolic links listed on the command line
+ -H, --dereference-command-line
+  + follow symbolic links listed on the command line
 
-       --dereference-command-line-symlink-to-dir
-              follow each command line symbolic link that points to a directory
+ --dereference-command-line-symlink-to-dir
+  + follow each command line symbolic link that points to a directory
 
-       --hide=PATTERN
-              do not list implied entries matching shell PATTERN (overridden by -a or -A)
+ --hide=PATTERN
+  + do not list implied entries matching shell PATTERN (overridden by -a or -A)
 
-       --indicator-style=WORD append indicator with style WORD to entry names:
-              none (default), slash (-p), file-type (--file-type), classify (-F)
+ --indicator-style=WORD 
+  + append indicator with style WORD to entry names: 
+    + none (default), slash (-p), file-type (--file-type), classify (-F)
 
-       -i, --inode
-              with -l, print the index number of each file
+ -i, --inode
+  + with -l, print the index number of each file
 
-       -I, --ignore=PATTERN
-              do not list implied entries matching shell PATTERN
+ -I, --ignore=PATTERN
+  + do not list implied entries matching shell PATTERN
 
-       -k     like --block-size=1K
+ -k     
+  + like --block-size=1K
 
-       -l     use a long listing format
+ -l     
+  + use a long listing format
 
-       -L, --dereference
-              when showing file information for a symbolic link, show information  for  the
-              file the link references rather than for the link itself
+ -L, --dereference
+  + when showing file information for a symbolic link, show information  for  the file the link references rather than for the link itself
+  
+ -m     
+  + fill width with a comma separated list of entries
 
-       -m     fill width with a comma separated list of entries
+ -n, --numeric-uid-gid
+  + like -l, but list numeric user and group IDs
 
-       -n, --numeric-uid-gid
-              like -l, but list numeric user and group IDs
+ -N, --literal
+  + print raw entry names (don’t treat e.g. control characters specially)
 
-       -N, --literal
-              print raw entry names (don’t treat e.g. control characters specially)
+ -o 
+  + like -l, but do not list group information
 
-       -o     like -l, but do not list group information
+ -p, --indicator-style=slash
+  + append / indicator to directories
 
-       -p, --indicator-style=slash
-              append / indicator to directories
+ -q, --hide-control-chars
+  + print ? instead of non graphic characters
 
-       -q, --hide-control-chars
-              print ? instead of non graphic characters
+ --show-control-chars
+  + show  non graphic characters as-is (default unless program is ‘ls’ and output is a terminal)
 
-       --show-control-chars
-              show  non graphic characters as-is (default unless program is ‘ls’ and output
-              is a terminal)
+ -Q, --quote-name
+  + enclose entry names in double quotes
 
-       -Q, --quote-name
-              enclose entry names in double quotes
+ --quoting-style=WORD
+  + use quoting style WORD for entry names: literal, locale, shell, shell-always, c, escape
 
-       --quoting-style=WORD
-              use quoting style WORD for entry names: literal, locale, shell, shell-always,
-              c, escape
+ -r, --reverse
+  + reverse order while sorting
 
-       -r, --reverse
-              reverse order while sorting
+ -R, --recursive
+  + list subdirectories recursively
 
-       -R, --recursive
-              list subdirectories recursively
+ -s, --size
+  + with -l, print size of each file, in blocks
 
-       -s, --size
-              with -l, print size of each file, in blocks
+ -S     
+  + sort by file size
 
-       -S     sort by file size
+ --sort=WORD
+  + extension  -X,  none  -U,  size  -S, time -t, version -v, status -c, time -t, atime -u, access -u, use -u
 
-       --sort=WORD
-              extension  -X,  none  -U,  size  -S, time -t, version -v, status -c, time -t,
-              atime -u, access -u, use -u
+ --time=WORD
+  + with -l, show time as WORD instead of modification time: atime, access,  use, ctime or status; use specified time as sort key if --sort=time
 
-       --time=WORD
-              with -l, show time as WORD instead of modification time: atime, access,  use,
-              ctime or status; use specified time as sort key if --sort=time
+ --time-style=STYLE
+  + with -l, show times using style STYLE: full-iso, long-iso, iso, locale, +FORMAT.  FORMAT is interpreted like ‘date’; if  FORMAT  is  FORMAT1<newline>FORMAT2,  FORMAT1  applies  to  non-recent files and FORMAT2 to recent files; if STYLE is prefixed with ‘posix-’, STYLE takes effect only  outside  the  POSIX locale
 
-       --time-style=STYLE
-              with -l, show times using style STYLE: full-iso, long-iso, iso, locale, +FOR-
-              MAT.  FORMAT is interpreted like ‘date’; if  FORMAT  is  FORMAT1<newline>FOR-
-              MAT2,  FORMAT1  applies  to  non-recent files and FORMAT2 to recent files; if
-              STYLE is prefixed with ‘posix-’, STYLE takes effect only  outside  the  POSIX
-              locale
+ -t     
+  + sort by modification time
 
-       -t     sort by modification time
+ -T, --tabsize=COLS
+  + assume tab stops at each COLS instead of 8
 
-       -T, --tabsize=COLS
-              assume tab stops at each COLS instead of 8
+ -u     
+  + with  -lt:  sort by, and show, access time with -l: show access time and sort by name otherwise: sort by access time
 
-       -u     with  -lt:  sort by, and show, access time with -l: show access time and sort
-              by name otherwise: sort by access time
-
-       -U     do  not  sort;  list  entries  in  directory  order.   In  combination   with
-              one_per_line format ‘-1’, it will show files immediately and it has no memory
-              limitations.
+ -U     
+  + do  not  sort;  list  entries  in  directory  order.   In  combination   with one_per_line format ‘-1’, it will show files immediately and it has no memory limitations.
 
        -v     sort by version
 
