@@ -2,7 +2,7 @@
 
 ## File/Directory Command
 
-- [ls](http://man7.org/linux/man-pages/man1/ls.1.html) ls the command which shows the list of files and directories in the specific directory
+- [ls](./linux/ls) ls the command which shows the list of files and directories in the specific directory
 
 - [cd](http://man7.org/linux/man-pages/man1/cd.1p.html) changes the directory
 
@@ -37,20 +37,27 @@
  ln -s A B
 ```
 
-- [touch]
+- [sort]()
+
+```
+
+```
+
+- [uniq]()
+
 
 ```
 
 ```
 
 ### Reading files
-- [cat]
+- [cat](./linux/cat)
 
-- [head]
+- [head](./linux/head)
 
-- [more]
+- [more](./linux/more)
 
-- [tail]
+- [tail](./linux/tail)
 
 ### Search
 
