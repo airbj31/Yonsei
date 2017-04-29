@@ -2,33 +2,31 @@
 
 ## File/Directory Command
 
-- [ls](./linux/ls) ls the command which shows the list of files and directories in the specific directory
+- [ls](./linux/ls.md) ls the command which shows the list of files and directories in the specific directory
 
-- [cd](http://man7.org/linux/man-pages/man1/cd.1p.html) changes the directory
+- [cd](./linux/cd.md) changes the directory
 
-- [pwd]() shows current path/directory
+- [pwd](./linux/pwd.md) shows current path/directory
 
-- [mkdir]() creating a directory.
+- [mkdir](./linux/mkdir.md) creating a directory.
 
-- [rmdir]() removing a directory.
+- [rmdir](./linux/rmdir.md) removing a directory.
 
-- [rm]() delete file
-
-- [cp]() copy file file A to file B.
-
-```
- cp A B
-```
-- [mv]() rename or move file A to file B
-
-```
- cp A B
-```
-
-- [rm]() delete A
+- [rm](./linux/rm.md) delete file
 
 ```
  rm A
+```
+
+- [cp](./linux/cp.md) copy file file A to file B.
+
+```
+ cp A B
+```
+- [mv](./linux/mv.md) rename or move file A to file B
+
+```
+ mv A B
 ```
 
 - [ln] create symbolic link and link it to file.
