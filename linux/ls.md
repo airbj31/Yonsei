@@ -6,16 +6,13 @@
   
 ## Descriptions
 
-   List  information  about the FILEs (the current directory by default).  Sort entries
-       alphabetically if none of -cftuvSUX nor --sort.
+**List** information  about the FILEs (the current directory by default).  Sort entries alphabetically if none of -cftuvSUX nor --sort.
 
-       Mandatory arguments to long options are mandatory for short options too.
+Mandatory arguments to long options are mandatory for short options too.
 
-       -a, --all
-              do not ignore entries starting with .
+-a, --all do not ignore entries starting with .
 
-       -A, --almost-all
-              do not list implied . and ..
+-A, --almost-all  do not list implied . and ..
 
        --author
               with -l, print the author of each file
