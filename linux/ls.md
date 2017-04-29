@@ -10,45 +10,46 @@
 
 Mandatory arguments to long options are mandatory for short options too.
 
--a, --all do not ignore entries starting with .
+ -a, --all : 
+  + do not ignore entries starting with .
 
--A, --almost-all  do not list implied . and ..
+ -A, --almost-all
+  + do not list implied . and ..
 
-       --author
-              with -l, print the author of each file
+ --author
+  + with -l, print the author of each file
 
-       -b, --escape
-              print octal escapes for nongraphic characters
+ -b, --escape 
+  + print octal escapes for nongraphic characters
 
-       --block-size=SIZE
-              use SIZE-byte blocks
+ --block-size=SIZE 
+  + use SIZE-byte blocks
 
-       -B, --ignore-backups
-              do not list implied entries ending with ~
+ -B, --ignore-backup 
+  + do not list implied entries ending with ~
 
-       -c     with -lt: sort by, and show, ctime (time of last modification of file  status
+ -c     with -lt: sort by, and show, ctime (time of last modification of file  status
               information) with -l: show ctime and sort by name otherwise: sort by ctime
 
-       -C     list entries by columns
+ -C     list entries by columns
 
-       --color[=WHEN]
-              control  whether  color  is  used  to  distinguish  file  types.  WHEN may be
-              ‘never’, ‘always’, or ‘auto’
+ --color[=WHEN]
+  + control  whether  color  is  used  to  distinguish  file  types.  WHEN may be ‘never’, ‘always’, or ‘auto’
 
-       -d, --directory
-              list directory entries instead of contents, and do not  dereference  symbolic
-              links
+ -d, --directory
+  + list directory entries instead of contents, and do not  dereference  symbol links
 
-       -D, --dired
-              generate output designed for Emacs’ dired mode
+ -D, --dired
+  + generate output designed for Emacs’ dired mode
 
-       -f     do not sort, enable -aU, disable -lst
+ -f     
+  + do not sort, enable -aU, disable -lst
 
-       -F, --classify
-              append indicator (one of */=>@|) to entries
+ -F, --classify
+  + append indicator (one of */=>@|) to entries
 
-       --file-type
-              likewise, except do not append ‘*’
+ --file-type
+  + likewise, except do not append ‘*’
 
        --format=WORD
               across  -x,  commas -m, horizontal -x, long -l, single-column -1, verbose -l,
@@ -199,21 +200,26 @@ Mandatory arguments to long options are mandatory for short options too.
        Exit status is 0 if OK, 1 if minor problems, 2 if serious trouble.
 
 ## AUTHOR
-       Written by Richard Stallman and David MacKenzie.
+       
+ Written by Richard Stallman and David MacKenzie.
 
 ## REPORTING BUGS
-       Report bugs to <bug-coreutils@gnu.org>.
+
+ Report bugs to <bug-coreutils@gnu.org>.
 
 ## COPYRIGHT
-       Copyright © 2006 Free Software Foundation, Inc.
-       This is free software.  You may redistribute copies of it under the terms of the GNU
-       General  Public  License  <http://www.gnu.org/licenses/gpl.html>.   There is NO WAR-
-       RANTY, to the extent permitted by law.
+
+Copyright © 2006 Free Software Foundation, Inc.
+This is free software.  You may redistribute copies of it under the terms of the [GNU
+General  Public  License](http://www.gnu.org/licenses/gpl.html).   There is NO WAR-
+RANTY, to the extent permitted by law.
 
 ## SEE ALSO
-       The full documentation for ls is maintained as a Texinfo manual.  If the info and ls
-       programs are properly installed at your site, the command
 
-              info ls
+ The full documentation for ls is maintained as a Texinfo manual.  If the info and ls programs are properly installed at your site, the command
 
-       should give you access to the complete manual.
+```
+  info ls
+```
+
+ should give you access to the complete manual.
