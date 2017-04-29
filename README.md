@@ -25,12 +25,23 @@
  cp A B
 ```
 
-- [rm]
+- [rm]() delete A
+
+```
+ rm A
+```
 
 - [ln] create symbolic link and link it to file.
 
+```
+ ln -s A B
+```
+
 - [touch]
 
+```
+
+```
 
 ### Reading files
 - [cat]
@@ -41,6 +52,10 @@
 
 - [tail]
 
+### Search
+
+- [grep]()
+- [find]()
 
 
 ## permission
@@ -82,6 +97,9 @@
 
 - [qresume](./gridEngine/qresume)
 
-## 
+## some other scripts
+
+- [awk]
+-
 
 ##
