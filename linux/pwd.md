@@ -27,6 +27,16 @@ Print the full filename of the current working directory.
 
 NOTE: your shell may have its own version of pwd, which usually supersedes the version described here.  Please refer to your shell’s  documentation  for  details  about  the options it supports.
 
+## Example
+
+```
+$ ln -s /bin ./adminbin
+$ cd ./adminbin
+$ pwd -L
+$ pwd -P
+
+```
+
 ## AUTHOR
        
 Written by Jim Meyering.
