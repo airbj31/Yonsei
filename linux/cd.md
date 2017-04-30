@@ -23,7 +23,7 @@ with a slash (/), then CDPATH is not used.
  -L	
     + force symbolic links to be followed
 
- -P	
+ -P
     + use the physical directory structure without following symbolic links
     
 The default is to follow symbolic links, as if '-L' were specified.
