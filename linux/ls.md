@@ -157,45 +157,43 @@ Mandatory arguments to long options are mandatory for short options too.
  -U     
   + do  not  sort;  list  entries  in  directory  order.   In  combination   with one_per_line format ‘-1’, it will show files immediately and it has no memory limitations.
 
-       -v     sort by version
+ -v     
+  + sort by version
 
-       -w, --width=COLS
-              assume screen width instead of current value
+ -w, --width=COLS
+  + assume screen width instead of current value
 
-       -x     list entries by lines instead of by columns
+ -x     
+  + list entries by lines instead of by columns
 
-       -X     sort alphabetically by entry extension
+ -X     
+  + sort alphabetically by entry extension
+ 
+ -1     
+  + list one file per line
+       
+**SELinux options:**
 
-       -1     list one file per line
+ --lcontext
+  + Display security context.   Enable -l. Lines will probably be  too  wide  for most displays.
 
-       SELinux options:
+ -Z, --context
+  + Display  security  context  so it fits on most displays.  Displays only mode, user, group, security context and file name.
 
-       --lcontext
-              Display security context.   Enable -l. Lines will probably be  too  wide  for
-              most displays.
+ --scontext
+  + Display only security context and file name.
 
-       -Z, --context
-              Display  security  context  so it fits on most displays.  Displays only mode,
-              user, group, security context and file name.
+ --help 
+  + display this help and exit
 
-       --scontext
-              Display only security context and file name.
+ --version
+  + output version information and exit
 
-       --help display this help and exit
+ SIZE may be (or may be an integer optionally followed by) one of following: kB 1000, K 1024, MB 1000*1000, M 1024*1024, and so on for G, T, P, E, Z, Y.
 
-       --version
-              output version information and exit
+ By  default, color is not used to distinguish types of files.  That is equivalent to using --color=none.  Using the --color option without the optional WHEN argument  is equivalent  to using --color=always.  With --color=auto, color codes are output only if standard output is connected to  a  terminal  (tty).   The  environment  variable LS_COLORS  can influence the colors, and can be set easily by the dircolors command.
 
-       SIZE may be (or may be an integer optionally followed by) one of following: kB 1000,
-       K 1024, MB 1000*1000, M 1024*1024, and so on for G, T, P, E, Z, Y.
-
-       By  default, color is not used to distinguish types of files.  That is equivalent to
-       using --color=none.  Using the --color option without the optional WHEN argument  is
-       equivalent  to using --color=always.  With --color=auto, color codes are output only
-       if standard output is connected to  a  terminal  (tty).   The  environment  variable
-       LS_COLORS  can influence the colors, and can be set easily by the dircolors command.
-
-       Exit status is 0 if OK, 1 if minor problems, 2 if serious trouble.
+Exit status is 0 if OK, 1 if minor problems, 2 if serious trouble.
 
 ## AUTHOR
        
