@@ -20,11 +20,11 @@ with a slash (/), then CDPATH is not used.
     
 ## Options:
 
- -L	
-    + force symbolic links to be followed
+ -L  
+  + force symbolic links to be followed
 
- -P
-    + use the physical directory structure without following symbolic links
+ -P  
+  + use the physical directory structure without following symbolic links
     
 The default is to follow symbolic links, as if '-L' were specified.
     
