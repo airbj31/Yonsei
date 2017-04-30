@@ -30,6 +30,15 @@ The default is to follow symbolic links, as if '-L' were specified.
     
 Exit Status:
   Returns 0 if the directory is changed; non-zero otherwise.
+  
+## Examples
+
+```
+$ cd /bin ## change the working directory to /bin
+$ cd ../  ## change the working directory to upper directory
+$ cd ~    ## change the working directory to previous one. equivalnt to cd $OLDPWD
+$ cd ~    ## change the working directory to $HOME directory. equivalent to cd $HOME
+```
 
 ## SEE ALSO
     bash(1)
