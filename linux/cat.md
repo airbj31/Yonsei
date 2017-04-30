@@ -24,31 +24,33 @@ Concatenate FILE(s), or standard input, to standard output.
  -e     
   + equivalent to -vE
 
-       -E, --show-ends
-              display $ at end of each line
+ -E, --show-ends
+ + display $ at end of each line
 
-       -n, --number
-              number all output lines
+ -n, --number
+ + number all output lines
 
-       -s, --squeeze-blank
-              never more than one single blank line
+ -s, --squeeze-blank
+ + never more than one single blank line
 
-       -t     equivalent to -vT
+ -t     
+ + equivalent to -vT
 
-       -T, --show-tabs
-              display TAB characters as ^I
+ -T, --show-tabs
+ + display TAB characters as ^I
 
-       -u     (ignored)
+ -u     (ignored)
 
-       -v, --show-nonprinting
-              use ^ and M- notation, except for LFD and TAB
+ -v, --show-nonprinting
+ + use ^ and M- notation, except for LFD and TAB
 
-       --help display this help and exit
+ --help 
+ + display this help and exit
 
-       --version
-              output version information and exit
+ --version
+ + output version information and exit
 
-       With no FILE, or when FILE is -, read standard input.
+With no FILE, or when FILE is -, read standard input.
 
 ## EXAMPLES
 
@@ -87,3 +89,5 @@ programs are properly installed at your site, the command
 ```
 info cat
 ```
+
+should give you access to the complete manual.
