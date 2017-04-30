@@ -2,20 +2,51 @@
 
 ## File/Directory Command
 
-- [ls](./linux/ls.md) ls the command which shows the list of files and directories in the specific directory
+- [ls](./linux/ls.md) shows the list of files and directories in the specific directory
+
+```
+ $ ls
+```
 
 - [cd](./linux/cd.md) changes the directory
 
+```
+ $ cd ~
+```
+
 - [pwd](./linux/pwd.md) shows current path/directory
+
+```
+ $ pwd
+```
 
 - [mkdir](./linux/mkdir.md) creating a directory.
 
+```
+ $ mkdir helloYonsei
+```
 - [rmdir](./linux/rmdir.md) removing a directory.
+
+```
+ $ rmdir helloYonsei
+```
+
+- [echo](./linux/echo.md) print blah ... blah ...
+
+```
+ $ echo $HOME > myHomeDir.txt
+```
+
+- [cat](./linux/cat.md)
+
+```
+ $ cat myHomeDir.txt
+```
 
 - [rm](./linux/rm.md) delete file
 
 ```
- rm A
+ rm myHomeDir.txt
 ```
 
 - [cp](./linux/cp.md) copy file file A to file B.
