@@ -24,32 +24,34 @@ Remove (unlink) the FILE(s).
  -i, --interactive
   + prompt before any removal
 
-       --no-preserve-root do not treat ‘/’ specially (the default)
+ --no-preserve-root 
+  + do not treat ‘/’ specially (the default)
 
-       --preserve-root
-              fail to operate recursively on ‘/’
+ --preserve-root  
+  + fail to operate recursively on ‘/’
 
-       -r, -R, --recursive
-              remove directories and their contents recursively
+ -r, -R, --recursive
+  + remove directories and their contents recursively
 
-       -v, --verbose
-              explain what is being done
+ -v, --verbose  
+  + explain what is being done
 
-       --help display this help and exit
+ --help  
+  + display this help and exit
 
-       --version
-              output version information and exit
+ --version
+  + output version information and exit
 
-       By default, rm does not remove directories.  Use the --recursive (-r or -R) option to remove each listed directory, too, along with all of its contents.
+By default, rm does not remove directories.  Use the --recursive (-r or -R) option to remove each listed directory, too, along with all of its contents.
 
-       To remove a file whose name starts with a ‘-’, for example ‘-foo’, use one of these commands:
+To remove a file whose name starts with a ‘-’, for example ‘-foo’, use one of these commands:
 
-              rm -- -foo
+```
+ $ rm -- -foo
+ $ rm ./-foo
+```
 
-              rm ./-foo
-
-       Note that if you use rm to remove a file, it is usually possible to recover the contents of that file.  If you want more assurance that the contents are truly unrecoverable, consider
-       using shred.
+ Note that if you use rm to remove a file, it is usually possible to recover the contents of that file.  If you want more assurance that the contents are truly unrecoverable, consider using shred.
 
 ## AUTHOR
 
